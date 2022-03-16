@@ -152,6 +152,115 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-MD文档练习" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2022/03/16/MD%E6%96%87%E6%A1%A3%E7%BB%83%E4%B9%A0/">MD文档练习</a>
+    </h1>
+  
+
+        
+        <a href="/2022/03/16/MD%E6%96%87%E6%A1%A3%E7%BB%83%E4%B9%A0/" class="archive-article-date">
+  	<time datetime="2022-03-16T01:38:04.524Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-03-16</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>title: MD文档练习</p>
+<hr>
+<h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><p>#个数，空格+文字</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_">#</span><span class="language-bash"><span class="comment"># 标题</span></span></span><br></pre></td></tr></table></figure>
+<h2 id="斜体"><a href="#斜体" class="headerlink" title="斜体"></a>斜体</h2><p>**或者__括住</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">*斜体文字1*或者_斜体文字2_</span><br></pre></td></tr></table></figure>
+<p><em>斜体文字1</em>或者_斜体文字2_</p>
+<h2 id="加粗"><a href="#加粗" class="headerlink" title="加粗"></a>加粗</h2><p>开头<code>**</code>，结尾<code>**</code><br>或者开头<code>__</code>,结尾<code>__</code><br><strong>加粗字体1</strong>  <strong>加粗字体2</strong></p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">**加粗字体1**  __加粗字体2__</span><br></pre></td></tr></table></figure>
+
+<h2 id="删除线"><a href="#删除线" class="headerlink" title="删除线"></a>删除线</h2><p>开头<code>~~</code>,结尾<code>~~</code></p>
+<p><del>错误文字</del></p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">~~错误文字~~</span><br></pre></td></tr></table></figure>
+
+<h2 id="下划线"><a href="#下划线" class="headerlink" title="下划线"></a>下划线</h2><p>下划线使用HTML标签<code>&lt;u&gt;内容&lt;/u&gt;</code></p>
+<p><u>下滑线</u></p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;u&gt;下滑线&lt;/u&gt;</span><br></pre></td></tr></table></figure>
+
+<h2 id="高亮"><a href="#高亮" class="headerlink" title="高亮"></a>高亮</h2><p>&#x3D;&#x3D;内容&#x3D;&#x3D;</p>
+<p>&#x3D;&#x3D;key&#x3D;&#x3D;</p>
+<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><p>1.行内输入快捷键：Ctrl+Shift+K</p>
+<p>2.开头&#96;&#96;&#96;+ 语言名，光标下移跳出</p>
+<h3 id="段落里的代码"><a href="#段落里的代码" class="headerlink" title="段落里的代码"></a>段落里的代码</h3><p>两个&#96;在正常段落里表示代码</p>
+<p>代码命令是<code>print(&quot;你好!&quot;)</code></p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">代码命令是`print(&quot;你好！&quot;)`</span><br></pre></td></tr></table></figure>
+
+<h2 id="表情"><a href="#表情" class="headerlink" title="表情"></a>表情</h2><p>两个:包围的字符，加单词</p>
+<p>:smile::cry:</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">:smile::cry:</span><br></pre></td></tr></table></figure>
+
+<h2 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h2><p>输入<code>***</code>或者<code>---</code>,按换行键换行，即可绘制一条水平线</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">***___</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h2><p><code>&gt; + 空格</code>，可嵌套</p>
+<blockquote>
+<p>引用的内容</p>
+<blockquote>
+<p>你好</p>
+</blockquote>
+</blockquote>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_">&gt; </span><span class="language-bash">引用的内容</span></span><br><span class="line"><span class="meta prompt_">&gt;</span><span class="language-bash">你好</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h2><p>常用的链接方法：<code>[链接名称](http://wangzhi.com) </code></p>
+<p> 网址链接：<code>&lt;www.wangzhi.com&gt;</code></p>
+<p>文字链接 <a href="www.baidu,com">百度</a></p>
+<p>网址链接 &lt;<a target="_blank" rel="noopener" href="http://www.msn.com&gt;/">www.msn.com&gt;</a></p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">文字链接 [百度](www.baidu,com)</span><br><span class="line">网址链接 &lt;www.msn.com&gt;</span><br></pre></td></tr></table></figure>
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2022/03/16/MD%E6%96%87%E6%A1%A3%E7%BB%83%E4%B9%A0/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-my-first-Blog" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
